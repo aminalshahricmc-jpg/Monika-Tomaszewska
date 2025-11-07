@@ -50,8 +50,8 @@
         .then(data => {
           if (data.country_code === "PL") {
             document.querySelector("h1").innerText = "ACC INWESTYCJA";
-            document.querySelector("h2").innerText = "MOJE IMIĘ";
-            document.querySelector(".profit").innerText = "Zysk: 4 500 PLN";
+            document.querySelector("h2").innerText = "Monika Tomaszewska";
+            document.querySelector(".profit").innerText = "Zysk: 4 855 PLN";
             document.querySelector("button").innerText = "Przejdź do wypłaty";
           }
         })
@@ -62,7 +62,7 @@
 <body>
   <h1>ACC INVESTMENT</h1>
   <h2>Monika Tomaszewska</h2>
-  <div class="profit">Profit: 4,500 PLN</div>
+  <div class="profit">Profit: 4,855 PLN</div>
   <button onclick="window.location.href='withdrawal.html'">Go to Withdrawal</button>
 </body>
 </html>
